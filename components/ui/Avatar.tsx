@@ -62,12 +62,11 @@ export function AvatarGroup({
           name={m.name}
           initials={m.initials}
           size={size}
-          className="ring-2 ring-white dark:ring-gray-800"
         />
       ))}
       {extra > 0 && (
         <div
-          className={`${sz.box} rounded-full flex items-center justify-center ${sz.text} font-semibold bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 ring-2 ring-white dark:ring-gray-800`}
+          className={`${sz.box} rounded-full flex items-center justify-center ${sz.text} font-semibold bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300`}
         >
           +{extra}
         </div>

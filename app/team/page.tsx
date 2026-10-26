@@ -23,7 +23,7 @@ export default function TeamPage() {
   });
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Team' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Team' }]}>
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>

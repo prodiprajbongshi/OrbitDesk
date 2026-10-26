@@ -76,7 +76,7 @@ export default function ProjectsPage() {
   }
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Projects' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Projects' }]}>
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>

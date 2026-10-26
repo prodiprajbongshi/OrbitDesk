@@ -29,7 +29,7 @@ export default function NotificationsPage() {
   const read = state.notifications.filter(n => n.read);
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Notifications' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Notifications' }]}>
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div>

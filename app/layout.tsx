@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "FlowBoard — Project Management Workspace",
+  title: "Orbit Desk — Project Management Workspace",
   description: "A modern project management workspace to organize tasks, track progress, and collaborate with your team.",
   keywords: ["project management", "kanban", "tasks", "team collaboration"],
 };

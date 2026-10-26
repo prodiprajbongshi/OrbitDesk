@@ -31,7 +31,7 @@ export default function DashboardPage() {
   const activeProjects = state.projects.filter(p => p.status === 'active');
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Dashboard' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Dashboard' }]}>
       {/* Welcome Banner */}
       <div className="mb-6 rounded-2xl p-6 md:p-7 relative overflow-hidden bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 shadow-md shadow-blue-500/20 border border-blue-400/20">
         <div className="relative z-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -213,7 +213,7 @@ export default function DashboardPage() {
                       <ProgressBar value={project.progress} color={project.color} showLabel className="mt-2" />
                     </div>
                   </div>
-                  <div className="flex items-center justify-between mt-2.5 pt-2 border-t border-slate-100 dark:border-slate-800/50">
+                  <div className="flex items-center justify-between mt-2.5 pt-2   dark:border-slate-800/50">
                     <AvatarGroup
                       members={members.map(m => ({ name: m.name, initials: m.avatar }))}
                       max={3}

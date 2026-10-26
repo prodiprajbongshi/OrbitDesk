@@ -27,7 +27,7 @@ export default function SettingsPage() {
   }
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Settings' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Settings' }]}>
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <h1 className="text-xl font-bold text-gray-900 dark:text-white">Settings</h1>
@@ -194,7 +194,7 @@ export default function SettingsPage() {
                 </div>
                 <div>
                   <label className="text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 block">Workspace Name</label>
-                  <input className="input-base" defaultValue="FlowBoard Workspace" id="workspace-name" />
+                  <input className="input-base" defaultValue="Orbit Desk Workspace" id="workspace-name" />
                 </div>
                 <div>
                   <label className="text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 block">Workspace URL</label>

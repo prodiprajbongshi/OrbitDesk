@@ -50,7 +50,7 @@ export default function MyTasksPage() {
   ].filter(g => g.tasks.length > 0);
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'My Tasks' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'My Tasks' }]}>
       {/* Stats */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6">
         {[

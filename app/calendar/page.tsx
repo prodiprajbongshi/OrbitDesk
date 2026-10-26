@@ -45,7 +45,7 @@ export default function CalendarPage() {
     .slice(0, 8);
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Calendar' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Calendar' }]}>
       <div className="flex gap-6">
         {/* Main Calendar */}
         <div className="flex-1 card rounded-2xl p-7 border border-slate-200/80 dark:border-slate-800/80 shadow-xs">

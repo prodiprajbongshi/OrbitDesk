@@ -107,7 +107,7 @@ export default function BoardPage() {
   }
 
   return (
-    <AppLayout breadcrumbs={[{ label: 'FlowBoard' }, { label: 'Board View' }]}>
+    <AppLayout breadcrumbs={[{ label: 'Orbit Desk' }, { label: 'Board View' }]}>
       {/* Toolbar */}
       <div className="flex flex-wrap items-center gap-3 mb-6">
         <div className="relative">
